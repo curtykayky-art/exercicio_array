@@ -472,12 +472,12 @@ const backEnd = ["Node.js", "Python", "Java"];</code></pre>
         exibirResposta(17, [...fila].reverse());
       }
 
-      { // 18
+      { // 18 - CORRIGIDO
         const categorias = [
           ["HTML", "CSS"], ["JavaScript", "TypeScript"], ["Node.js", "Express"]
         ];
         const array3Niveis = [1, [2, [3, 4]]];
-        exibirResposta(18, categorias.flat());
+        exibirResposta(18, `Flat: [${categorias.flat()}] | Desafio: [${array3Niveis.flat(2)}]`);
       }
 
       { // 19
